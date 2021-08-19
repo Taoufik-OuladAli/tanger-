@@ -1,0 +1,114 @@
+
+html, body{
+    margin: 0;
+}
+body{
+    text-align: center;
+    background-color: #0000FF;
+    font-family: Roboto;
+    font-style: normal;
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    padding: 30px 15px 30px 15px;
+    background-color: #fff;
+}
+header{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    font-family: Algerian;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h2{
+    font-family: Algerian;
+    font-style: normal;
+    font-size: 34px;
+}
+.discription{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+}
+.presentation{
+      margin-right: 30px;
+
+}
+button{
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #1075FF;
+
+}
+a:hover{
+    box-shadow: 10px 5px 5px rgba(0, 0, 255, .2);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+.haut_de_page{
+    display: flex;
+}
+
+.droite{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tt_en_bas{
+    display: flex;
+    justify-content: center;
+}
+.ml{
+    position: relative;
+    right: 200px;
+
+}
+
+.rs img{
+    border-radius: 30px;
+}
+main{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+p{
+    font-size: 20px;
+}
+
+/*formulaire*/
+.formulaire{
+    padding-top: 100px;
+    padding-bottom: 250px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    border: solid;
+    border-color: #00F;
+    width: 25%;
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+label{
+    display: block;
+    line-height: 2em;
+}
+.bouton{
+    padding-top: 15px;
+}
